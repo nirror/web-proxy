@@ -20,5 +20,9 @@ require("web-proxy")({
 	processChunk: function(html) {
 		return html.replace("</body>", niScriptTag + "\n</body>");
 	}
-})
+});
 ```
+
+## License
+This project is released under the terms of the [GNU GPL version 3](http://www.gnu.org/licenses/gpl.html)
+
